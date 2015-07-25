@@ -1,0 +1,31 @@
+{
+  "name": "mixpanel-segmentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python -mSimpleHTTPServer 8888",
+    "watch": "mkdir -p build && watchify ./js/segmentation.js -o ./build/segmentation.js -v"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "loose": true,
+          "stage": 0
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "watchify": "^3.3.0"
+  },
+  "dependencies": {
+    "d3": "^3.5.6",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.0",
+    "react": "^0.13.3"
+  }
+}

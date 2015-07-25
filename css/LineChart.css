@@ -1,0 +1,103 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.line {
+    fill: none;
+}
+
+.point-group {
+}
+
+.point-halo {
+    fill: white;
+}
+.x-axis .domain {
+    fill: none;
+}
+
+.x-axis text {
+    fill: #868ea3;
+    font-size: 11px;
+}
+
+/* Specificity hack... */
+.check.check {
+    dominant-baseline: central;
+    fill: white;
+    font-family: FontAwesome;
+    font-size: 12px;
+    text-anchor: middle;
+}
+
+.checkbox {
+    stroke: rgb(200,213,222);
+}
+
+.checkbox.active {
+    stroke: none;
+}
+
+.checkbox-group text {
+    cursor: default;
+    dominant-baseline: central;
+    fill: #868ea3;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.checkbox-group:hover .checkbox-group-background {
+    fill: #fffdf1;
+}
+
+.checkbox-group-background {
+    fill: #fffce7;
+}
+
+.checkbox-group-border {
+    stroke: #e6e0bc;
+}
+
+.graph-area-background {
+    fill: white;
+}
+
+.graph-area {
+    fill: white;
+}
+
+.events {
+    fill: #fffce7;
+}
+
+.graph-area-border {
+    stroke: #e6e0bc;
+}
+
+.card-border {
+    fill: none;
+    stroke: #b2b6c0;
+}
+
+.y-axis .domain {
+    fill: none;
+}
+
+.y-axis .tick line {
+    stroke: #e6e8eb;
+    stroke-dasharray: 3,1;
+}
+
+.y-axis .tick text {
+    fill: #868ea3;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.y-axis-label-background {
+    fill: #fbfcfd;
+}
+
+.y-axis-label-border {
+    stroke: #d3dfe7;
+}
