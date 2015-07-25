@@ -1,5 +1,10 @@
 [Demo](https://mking.github.io/mixpanel-segmentation) / [Original](https://mixpanel.com/segmentation)
 
+Features
+---
+- Line chart of event frequency over time
+- Segment (filter) events by event type
+
 Setup
 ---
 ```
